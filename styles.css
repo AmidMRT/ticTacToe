@@ -1,0 +1,76 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: beige;
+}
+
+.grid {
+    margin: 50px auto;
+}
+
+.row {
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+}
+
+.cell {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(204, 204, 204);
+    border: none;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px;
+    font-size: 100px;
+    margin: 5px;
+    color: beige;
+    box-shadow: 5px 5px 10px rgb(189, 189, 189);
+}
+
+.anon{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 100px auto;
+}
+
+.firstForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.player01, .player02 {
+    margin: 0 auto 10px;
+}
+
+.submit {
+    font-size: 20px;
+    background-color:beige;
+    border: 1px solid rgb(214, 214, 214);
+}
+
+.submit:hover {
+    background-color: bisque;
+}
+
+.submit:focus {
+    box-shadow: 3px 3px 8px black;
+}
+
+.endGame {
+    text-align: center;
+    padding: auto;
+}
+
+.resetBtn {
+    background-color: rgb(218, 218, 218);
+}
